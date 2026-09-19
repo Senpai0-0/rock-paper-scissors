@@ -1,4 +1,4 @@
-# Rock Paper Scissors (CLI)
+# Rock Paper Scissors 
 
 A simple command-line Rock Paper Scissors game written in Python. This project was built as a beginner-friendly exercise covering core Python concepts: functions, conditionals, loops, and dictionaries.
 
@@ -45,24 +45,5 @@ Seçimin: q
 Oyun bitti, görüşürüz!
 ```
 
-## Project Structure
 
-```
-rock-paper-scissors-cli/
-├── tas_kagit_makas.py   # Main game logic
-└── README.md
-```
 
-## Concepts Covered
-
-- Using the `random` module for computer choices
-- Dictionaries for clean win/lose logic (instead of long if/elif chains)
-- Input validation and string handling
-- Loops for continuous gameplay
-
-## Possible Improvements
-
-- [ ] Add a score tracker (wins/losses/ties)
-- [ ] Add a graphical version using `pygame`
-- [ ] Support best-of-N rounds
-- [ ] Add unit tests
